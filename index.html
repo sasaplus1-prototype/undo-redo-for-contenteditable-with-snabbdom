@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>undo redo for contenteditable with snabbdom</title>
+    <script defer src="index.js"></script>
+    <style>
+      .editor {
+        border: 1px solid #000;
+        margin-top: 4px;
+        min-height: 6em;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="control">
+      <button id="js-undo" disabled>undo</button>
+      <button id="js-redo" disabled>redo</button>
+    </div>
+    <div class="editor" id="js-editor" contenteditable></div>
+  </body>
+</html>

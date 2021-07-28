@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ES2015"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "newLine": "lf",
+    "rootDir": ".",
+    "target": "ES5"
+  },
+  "files": [
+    "index.ts"
+  ]
+}
